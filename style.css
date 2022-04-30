@@ -50,11 +50,7 @@ main{
     border-bottom: solid #eee;
 }
 
-#mainpic{
-    width: 100%;
-}
-
-.otherpic{
+img{
     width: 100%;
 }
 
