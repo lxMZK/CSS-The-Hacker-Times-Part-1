@@ -10,6 +10,10 @@ h1{
     text-align: center;
 }
 
+h3{
+    font-family: 'Abril Fatface';
+}
+
 h2,h4,h5{
     font-family: 'Roboto Slab';
 }
@@ -28,15 +32,14 @@ nav{
     border-bottom: solid #eee;
 }
 
-ul{
+nav ul{
     list-style-type: none;
     margin: auto;
     text-align: center;
-    padding-left: 0%;
-    padding-right: 1%
+    padding-inline-start: 0px;
 }
 
-li{
+nav li{
     display: inline-block;
     padding: 4px;
 }
@@ -69,3 +72,27 @@ h5{
     color: #dd3232;
 }
 
+nav{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+
+.small{
+    display: inline-block;
+    width: 30%;
+    margin: auto;
+    padding: 10px;
+}
+
+.otherpic{
+    height: 150px;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+.head{
+    padding-bottom: 10px;
+}
